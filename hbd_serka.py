@@ -6,7 +6,7 @@ import streamlit as st
 st.title("🎀 𝒟𝒶𝓉𝒶 𝒰𝓁𝒶𝓃𝑔 𝒯𝒶𝒽𝓊𝓃 🎀")
 
 # Path ke file Excel
-file_path = 'https://github.com/uwaaeeewaeoooo/uwaaaa/blob/be8e23c411180a0c498d5dd6c9971a05cd69934b/hbd_komis.csv'
+file_path = 'https://raw.githubusercontent.com/euforiaserka/habede/refs/heads/main/hbd_serka_csv.csv'
 
 # Membaca data dari Excel
 df = pd.read_csv(file_path)
